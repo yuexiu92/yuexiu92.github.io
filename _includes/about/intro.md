@@ -1,4 +1,4 @@
-I am **Yue Xiu (修越)**, an Associate Professor at the National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC), Chengdu, China.
+I am **Yue Xiu (修越)**, a Postdoctoral Researcher at the National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC), Chengdu, China.
 
 My research focuses on energy-efficient and sustainable wireless communications. I study beamforming, resource allocation, and learning-based optimization for integrated sensing and communication (ISAC), movable antennas, reconfigurable intelligent surfaces (RISs), cell-free networks, and mobile edge computing.
 

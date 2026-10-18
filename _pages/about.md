@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Yue Xiu (修越), Associate Professor at UESTC. Energy-efficient wireless communications, ISAC, movable antennas, and RISs."
+excerpt: "Yue Xiu (修越), Postdoctoral Researcher at UESTC. Energy-efficient wireless communications, ISAC, movable antennas, and RISs."
 author_profile: true
 redirect_from: 
   - /about/

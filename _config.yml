@@ -7,7 +7,7 @@
 
 # Site Settings
 title       : "Yue Xiu (修越)"
-description : "Associate Professor at UESTC. Research in energy-efficient wireless communications, integrated sensing and communication, movable antennas, and reconfigurable intelligent surfaces."
+description : "Postdoctoral Researcher at UESTC. Research in energy-efficient wireless communications, integrated sensing and communication, movable antennas, and reconfigurable intelligent surfaces."
 url         : "https://xiuyue.org"
 baseurl     : ""
 repository  : "yuexiu92/yuexiu92.github.io"
@@ -28,8 +28,8 @@ author:
   name          : "Yue Xiu"
   name_zh       : "修越"
   avatar        : "images/yue-xiu.jpg"
-  bio           : "Associate Professor, UESTC"
-  bio_zh        : "电子科技大学副教授"
+  bio           : "Postdoctoral Researcher, UESTC"
+  bio_zh        : "电子科技大学博士后"
   affiliation   : "National Key Laboratory of Wireless Communications"
   affiliation_zh: "无线通信国家重点实验室"
   location      : "Chengdu, China"

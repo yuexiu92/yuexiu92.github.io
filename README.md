@@ -1,6 +1,6 @@
 <h1 align="center">Yue Xiu（修越）学术主页</h1>
 
-<p align="center">Associate Professor · University of Electronic Science and Technology of China</p>
+<p align="center">Postdoctoral Researcher · University of Electronic Science and Technology of China</p>
 
 ## 内容结构
 
@@ -29,6 +29,23 @@ bundle install
 
 ## 部署
 
-源代码仓库为 [yuexiu92/yuexiu92.github.io](https://github.com/yuexiu92/yuexiu92.github.io)，GitHub Pages 地址为 <https://yuexiu92.github.io/>。
+主页已通过 Direct Upload 部署到 Cloudflare Pages，项目为 `xiuyue-homepage`，正式地址为 <https://www.xiuyue.org/>，备用地址为 <https://xiuyue-homepage.pages.dev/>。根域名 `xiuyue.org` 的 HTTP 和 HTTPS 请求会以 302 跳转至 `https://www.xiuyue.org/`，并保留访问路径。源代码继续保存在 [yuexiu92/yuexiu92.github.io](https://github.com/yuexiu92/yuexiu92.github.io)。
 
-GitHub Pages 从 `main` 分支的仓库根目录构建，推送更新后会自动重新发布。`_config.yml` 已配置根域名地址，`baseurl` 留空。使用自定义域名时，再添加对应的 `CNAME` 文件并调整站点配置。
+网站托管已迁至 Cloudflare；DNS 仍由 Squarespace 管理，DNSSEC 已开启，Google Workspace 的 MX、SPF 和 DKIM 记录已保留。完整 DNS 迁移仍待后续处理。
+
+当前工作流是：本地修改 → 本地预览 → 提交并推送 GitHub 保存源码 → 在本地构建网站 → 手动上传 Cloudflare Pages 发布。GitHub 保存源码，Cloudflare 托管构建后的网页；目前没有配置两者之间的自动部署。
+
+`zsh push.sh` 只会执行 `git add .`、`git commit` 和 `git push`，不会构建或发布 Cloudflare 网站。它会提交当前所有改动，运行前先用 `git diff` 检查。
+
+推送源码后，在仓库根目录构建并打包（Cloudflare Direct Upload 直接使用这些本地构建文件，不会从 GitHub 拉取）：
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build --destination /private/tmp/xiuyue-cloudflare-site
+rm -f /private/tmp/xiuyue-cloudflare-site/CNAME /private/tmp/xiuyue-cloudflare-site.zip
+cd /private/tmp/xiuyue-cloudflare-site
+zip -r /private/tmp/xiuyue-cloudflare-site.zip .
+```
+
+只删除上传目录中生成的 `CNAME`，保留仓库中的原文件。ZIP 根目录应直接包含 `index.html`、`assets/`、`images/` 等网站文件。
+
+在 Cloudflare 控制台进入 **Workers & Pages → xiuyue-homepage → Create deployment**，上传 ZIP，选择 **Production** 并部署。完成后打开公开地址检查页面。
