@@ -9,8 +9,8 @@
 title       : "Yue Xiu (修越)"
 description : "Associate Professor at UESTC. Research in energy-efficient wireless communications, integrated sensing and communication, movable antennas, and reconfigurable intelligent surfaces."
 url         : "https://yuexiu92.github.io"
-baseurl     : "/yuexiu.github.io"
-repository  : "yuexiu92/yuexiu.github.io"
+baseurl     : ""
+repository  : "yuexiu92/yuexiu92.github.io"
 lang        : "en"
 locale      : "en_US"
 theme       :

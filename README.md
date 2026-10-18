@@ -29,6 +29,6 @@ bundle install
 
 ## 部署
 
-源代码仓库为 [yuexiu92/yuexiu.github.io](https://github.com/yuexiu92/yuexiu.github.io)，GitHub Pages 地址为 <https://yuexiu92.github.io/yuexiu.github.io/>。
+源代码仓库为 [yuexiu92/yuexiu92.github.io](https://github.com/yuexiu92/yuexiu92.github.io)，GitHub Pages 地址为 <https://yuexiu92.github.io/>。
 
-GitHub Pages 从 `main` 分支的仓库根目录构建，推送更新后会自动重新发布。`_config.yml` 已配置站点地址和 `/yuexiu.github.io` 路径。使用自定义域名时，再添加对应的 `CNAME` 文件并调整站点配置。
+GitHub Pages 从 `main` 分支的仓库根目录构建，推送更新后会自动重新发布。`_config.yml` 已配置根域名地址，`baseurl` 留空。使用自定义域名时，再添加对应的 `CNAME` 文件并调整站点配置。
