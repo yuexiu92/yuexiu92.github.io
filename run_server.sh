@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
-/opt/homebrew/bin/bundle exec jekyll serve --livereload
+cd -- "$(dirname -- "$0")" || exit 1
+
+exec /opt/homebrew/bin/bundle exec jekyll serve --livereload "$@"
