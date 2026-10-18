@@ -1,6 +1,6 @@
 (() => {
   const nav = document.querySelector('.greedy-nav');
-  const navButton = nav?.querySelector('button[type="button"]:not(.theme-switch)');
+  const navButton = nav?.querySelector('.nav-toggle');
   const menu = nav?.querySelector('.visible-links');
 
   if (nav && navButton && menu) {
@@ -21,6 +21,43 @@
       if (event.key === 'Escape') closeMenu();
     });
   }
+
+  const languageButton = document.getElementById('language-switch');
+  const languageLabel = languageButton?.querySelector('.language-switch__label');
+  const translatedElements = Array.from(document.querySelectorAll('[data-zh]'), (element) => ({
+    element,
+    english: element.textContent
+  }));
+  const updateThemeLabel = () => {
+    const isChinese = document.documentElement.lang === 'zh-CN';
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.getElementById('theme-switch')?.setAttribute('aria-label', isChinese
+      ? (isDark ? '切换到白天模式' : '切换到黑夜模式')
+      : (isDark ? 'Switch to light mode' : 'Switch to dark mode'));
+  };
+  const setLanguage = (language) => {
+    document.documentElement.lang = language;
+    translatedElements.forEach(({ element, english }) => {
+      element.textContent = language === 'zh-CN' ? element.dataset.zh : english;
+    });
+    if (languageButton) {
+      const isChinese = language === 'zh-CN';
+      languageLabel.textContent = isChinese ? 'English' : '中文';
+      languageButton.lang = isChinese ? 'en' : 'zh-CN';
+      languageButton.setAttribute('aria-label', isChinese ? 'Switch to English' : '切换到中文');
+      languageButton.hidden = false;
+    }
+    updateThemeLabel();
+  };
+
+  setLanguage(document.documentElement.lang);
+  languageButton?.addEventListener('click', () => {
+    const language = document.documentElement.lang === 'zh-CN' ? 'en' : 'zh-CN';
+    setLanguage(language);
+    try {
+      window.localStorage.setItem('site-language', language);
+    } catch {}
+  });
 
   const themeButton = document.getElementById('theme-switch');
   const themeLabel = themeButton?.querySelector('.theme-switch__label');
@@ -55,13 +92,9 @@
     document.documentElement.setAttribute('data-theme', theme);
     const isDark = theme === DARK;
     themeButton.setAttribute('aria-pressed', String(isDark));
-    themeButton.setAttribute(
-      'aria-label',
-      isDark ? '切换到白天模式' : '切换到黑夜模式'
-    );
-    themeLabel.textContent = isDark ? '☀️ 白天' : '🌙 黑夜';
+    updateThemeLabel();
 
-    const themeColor = isDark ? '#0f1117' : '#ffffff';
+    const themeColor = isDark ? '#142338' : '#0055a2';
     const themeMeta = document.querySelector('meta[name="theme-color"]');
     if (themeMeta) themeMeta.setAttribute('content', themeColor);
   };

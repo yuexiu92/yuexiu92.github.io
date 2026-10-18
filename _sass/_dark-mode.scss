@@ -3,34 +3,37 @@
    ========================================================================== */
 
 :root {
-  --theme-bg: #ffffff;
+  --brand-blue: #0055a2;
+  --theme-accent: #0055a2;
+  --theme-bg: #f3f6fb;
   --theme-surface: #ffffff;
-  --theme-surface-alt: #f7f9fc;
-  --theme-border: #dde3ea;
-  --theme-text: #2f3742;
-  --theme-text-soft: #5e6978;
-  --theme-heading: #1e2935;
-  --theme-link: #224b8d;
-  --theme-link-hover: #162e5f;
+  --theme-surface-alt: #edf4fb;
+  --theme-border: #dce5ef;
+  --theme-text: #26364a;
+  --theme-text-soft: #53657a;
+  --theme-heading: #15395f;
+  --theme-link: #0055a2;
+  --theme-link-hover: #003d75;
   --theme-code-bg: #fafafa;
   --theme-code-meta: #eef3f9;
   --theme-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
 
-  --theme-selection-bg: rgba(0, 0, 0, 0.14);
-  --theme-selection-text: #ffffff;
+  --theme-selection-bg: #d4e8fc;
+  --theme-selection-text: #15395f;
 
   color-scheme: light;
 }
 
 [data-theme='dark'] {
-  --theme-bg: #0f1117;
-  --theme-surface: #171a21;
-  --theme-surface-alt: #1a202c;
-  --theme-border: #2f3744;
+  --theme-accent: #8fc3ff;
+  --theme-bg: #0d1726;
+  --theme-surface: #142338;
+  --theme-surface-alt: #1b304a;
+  --theme-border: #2a405c;
   --theme-text: #e5ebf5;
   --theme-text-soft: #aeb7c6;
   --theme-heading: #f2f6ff;
-  --theme-link: #8fb4ff;
+  --theme-link: #8fc3ff;
   --theme-link-hover: #c8dcff;
   --theme-code-bg: #181f2c;
   --theme-code-meta: #293348;
@@ -113,10 +116,7 @@ a:active {
 
 hr,
 .page__hero-caption,
-.page__taxonomy-item,
-.note-card,
-.notes-intro,
-.note-card:hover {
+.page__taxonomy-item {
   border-color: var(--theme-border);
 }
 
@@ -125,9 +125,7 @@ blockquote {
 }
 
 thead,
-.note-card,
 .page__comments-form,
-.notes-intro,
 .well,
 .page__hero-caption {
   background-color: var(--theme-surface);
@@ -138,8 +136,6 @@ td,
 pre,
 figure.highlight,
 blockquote,
-.note-card,
-.notes-intro,
 .well {
   color: var(--theme-text);
 }
@@ -182,11 +178,7 @@ table pre {
 }
 
 .page__meta,
-.note__meta,
-.note__summary,
-.note-card p,
 .page__taxonomy-item,
-.note__content,
 .page__content p,
 .page__content li {
   color: var(--theme-text-soft);
@@ -200,8 +192,6 @@ h3,
 h4,
 h5,
 h6,
-.note__title,
-.note__header,
 .page__meta strong,
 .page__meta-title,
 .page__related-title,

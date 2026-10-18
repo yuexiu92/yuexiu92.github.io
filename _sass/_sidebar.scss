@@ -95,6 +95,10 @@
   img {
     max-width: 175px;
     min-width: 75px;
+    aspect-ratio: 1;
+    height: auto;
+    object-fit: cover;
+    object-position: center 25%;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -143,6 +147,14 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+
+.author__name-zh {
+  margin: 0.4rem 0;
+}
+
+.author__urls .author__affiliation {
+  white-space: normal;
 }
 
 .author__urls-wrapper {
@@ -197,5 +209,5 @@
 }
 
 .author__label {
-  font-weight: 700;
+  font-weight: 600;
 }

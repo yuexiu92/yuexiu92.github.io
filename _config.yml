@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title       : "Henry Dong"
-description : "Focusing on wireless communications."
-url         : "https://blog.990405.xyz"
-baseurl     : ""
-repository  : "HenryDong99/HenryDong99.github.io"
+title       : "Yue Xiu (修越)"
+description : "Associate Professor at UESTC. Research in energy-efficient wireless communications, integrated sensing and communication, movable antennas, and reconfigurable intelligent surfaces."
+url         : "https://yuexiu92.github.io"
+baseurl     : "/yuexiu.github.io"
+repository  : "yuexiu92/yuexiu.github.io"
 lang        : "en"
 locale      : "en_US"
 theme       :
@@ -25,12 +25,18 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name          : "Henry Dong"
-  avatar        : "images/profile.png"
-  bio           : "NKLWC"
-  location      : "Singapore"
-  googlescholar : "https://scholar.google.com/citations?user=oWU8V9cAAAAJ"
-  github        : "HenryDong99"
+  name          : "Yue Xiu"
+  name_zh       : "修越"
+  avatar        : "images/yue-xiu.jpg"
+  bio           : "Associate Professor, UESTC"
+  bio_zh        : "电子科技大学副教授"
+  affiliation   : "National Key Laboratory of Wireless Communications"
+  affiliation_zh: "无线通信国家重点实验室"
+  location      : "Chengdu, China"
+  location_zh   : "中国 · 成都"
+  email         : "yunis@uestc.edu.cn"
+  googlescholar : "https://scholar.google.com/citations?user=m2X_ZS0AAAAJ"
+  github        : ""
 
 
 # Reading Files
@@ -75,11 +81,6 @@ kramdown:
   enable_coderay: false
 
 # Defaults
-collections:
-  notes:
-    output: true
-    permalink: /notes/:path/
-
 defaults:
   # _pages
   - scope:
@@ -88,13 +89,6 @@ defaults:
     values:
       layout: default
       author_profile: true
-  # _notes
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: note
-      author_profile: false
 
 
 # Sass/SCSS
@@ -105,7 +99,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Singapore
+timezone: Asia/Shanghai
 
 
 # Plugins

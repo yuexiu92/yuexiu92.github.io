@@ -1,0 +1,18 @@
+Source Sans 3, Latin subset, variable weight 400–700.
+Downloaded on 2026-10-18 from the official Google Fonts API (CSS revision v20).
+The normal and italic files are unmodified WOFF2 downloads.
+
+CSS request
+https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400..700;1,400..700&display=swap
+
+source-sans-3-latin-normal.woff2
+https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2
+
+source-sans-3-latin-italic.woff2
+https://fonts.gstatic.com/s/sourcesans3/v20/nwpMtKy2OAdR1K-IwhWudF-R3woqZ-LY.woff2
+
+License: SIL Open Font License 1.1; see LICENSE.md.
+https://raw.githubusercontent.com/adobe-fonts/source-sans/87b37a2daaed80fcb8e8ccb0085c4d72ddade12e/LICENSE.md
+
+Unicode range for both files
+U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD.

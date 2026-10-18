@@ -1,19 +1,14 @@
 {
-    "name": "Henry Dong",
-    "short_name": "Henry Dong",
+    "name": "Yue Xiu (修越)",
+    "short_name": "Yue Xiu",
     "icons": [
        {
-          "src": "/images/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-       },
-       {
-        "src": "/images/android-chrome-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
+          "src": "/images/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
         }
     ],
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
+    "theme_color": "#0055a2",
+    "background_color": "#f3f6fb",
     "display": "standalone"
  }

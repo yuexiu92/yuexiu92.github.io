@@ -2,22 +2,27 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-expanded="false" aria-controls="primary-menu">
-          <span class="screen-reader-text">Toggle navigation</span>
-          <span class="navicon" aria-hidden="true"></span>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+          <span class="screen-reader-text" data-zh="展开或收起导航">Toggle navigation</span>
+          <span class="nav-toggle__menu">{% include icon.html name="menu" %}</span>
+          <span class="nav-toggle__close">{% include icon.html name="close" %}</span>
         </button>
         <button
           type="button"
           id="theme-switch"
           class="theme-switch"
           aria-pressed="false"
-          aria-label="切换黑夜/白天模式">
-          <span class="theme-switch__label">🌙 夜间</span>
+          aria-label="Switch color theme">
+          <span class="theme-switch__label" aria-hidden="true">
+            <span class="theme-switch__moon">{% include icon.html name="moon" %}</span>
+            <span class="theme-switch__sun">{% include icon.html name="sun" %}</span>
+          </span>
         </button>
+        <button type="button" id="language-switch" class="language-switch" aria-label="切换到中文" lang="zh-CN" hidden>{% include icon.html name="globe" %}<span class="language-switch__label">中文</span></button>
         <ul id="primary-menu" class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}#about-me" data-zh="修越">Yue Xiu</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{% include icon.html name=link.icon %}<span data-zh="{{ link.title_zh }}">{{ link.title }}</span></a></li>
           {% endfor %}
         </ul>
       </nav>

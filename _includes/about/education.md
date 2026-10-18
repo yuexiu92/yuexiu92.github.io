@@ -1,3 +1,4 @@
-# 📖 Education
-- *2022.09 – Present* Ph.D. candidate, University of Electronic Science and Technology of China, Chengdu
-- *2018.09 – 2022.06* B.Eng., Shandong University of Science and Technology, Qingdao
+- **2017–2022** · Ph.D. in Wireless Communication and Information Engineering, University of Electronic Science and Technology of China, Chengdu, China. Research on beamforming and physical-layer security in RIS-aided millimeter-wave systems.
+- **2019–2021** · Visiting Student, Computer Networks and Communication Lab (CNCL), Nanyang Technological University, Singapore.
+- **2015–2017** · M.Eng. in Information Technology, University of Electronic Science and Technology of China, Chengdu, China.
+- **2011–2015** · B.Eng. in Information Science and Technology, Civil Aviation Flight University of China, China.

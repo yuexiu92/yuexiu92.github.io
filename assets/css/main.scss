@@ -12,6 +12,7 @@
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
+@import "fonts";
 @import "mixins";
 @import "vendor/susy/susy";
 
@@ -26,13 +27,14 @@
 
 @import "page";
 @import "sidebar";
-@import "notes";
 @import "dark-mode";
+@import "academic";
+@import "icons";
 
 @import "print";
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   scroll-padding-top: 2rem;
 }
 

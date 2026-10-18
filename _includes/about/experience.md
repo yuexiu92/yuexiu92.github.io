@@ -1,0 +1,2 @@
+- **2024–Present** · Associate Professor, National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China, Chengdu, China. Teaching wireless communications and signal processing, and supervising graduate research in ISAC and millimeter-wave networks.
+- **2022–2024** · Engineer, Huawei Technologies Co., Ltd., Chengdu, China. Research on beamforming optimization, RIS-aided sensing, and cooperative learning for wireless systems.

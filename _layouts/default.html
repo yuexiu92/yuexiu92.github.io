@@ -8,13 +8,17 @@
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.author_profile or layout.author_profile %} class="has-author-profile"{% endif %}>
 
-    <a class="screen-reader-shortcut" href="#main">Skip to main content</a>
+    <a class="screen-reader-shortcut" href="#main" data-zh="跳转到正文">Skip to main content</a>
     {% include masthead.html %}
-    <div class="site-header-image">
-      <img src="{{ '/images/header.jpg' | relative_url }}" alt="" width="1920" height="324" fetchpriority="high" decoding="async">
-    </div>
+    <header class="site-banner">
+      <div class="site-banner__inner">
+        <p class="site-banner__eyebrow">UESTC · <span lang="zh-CN">电子科技大学</span></p>
+        <p class="site-banner__title" data-zh="无线通信">Wireless Communications</p>
+        <p class="site-banner__summary" data-zh="高能效网络 · 通感一体化">Energy-efficient networks · Integrated sensing and communication</p>
+      </div>
+    </header>
 
     <div id="main" role="main">
       {% include sidebar.html %}
@@ -29,9 +33,9 @@
       </article>
     </div>
 
-    <div class="site-footer-image">
-      <img src="{{ '/images/foot.jpg' | relative_url }}" alt="" width="2268" height="303" loading="lazy" decoding="async">
-    </div>
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} <span data-zh="{{ site.author.name_zh }} · 电子科技大学">{{ site.author.name }} · University of Electronic Science and Technology of China</span></p>
+    </footer>
 
     {% include scripts.html %}
 

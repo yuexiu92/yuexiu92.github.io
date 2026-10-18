@@ -37,11 +37,20 @@
   }
 
   .theme-switch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    order: 2;
     flex: 0 0 auto;
+    width: 2.25rem;
+    height: 2.25rem;
     margin-left: auto;
-    padding: 0.35rem 0.7rem;
+    padding: 0;
     border: 1px solid $border-color;
-    border-radius: 999px;
+    border-radius: 50%;
+    font-size: 1.15rem;
+    line-height: 1;
     color: $text-color;
     background: transparent;
     cursor: pointer;
@@ -63,7 +72,7 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        font-weight: 600;
 
         a {
           margin-left: 0;
@@ -102,16 +111,19 @@
 
     button {
       display: block;
+      height: 2.75rem;
     }
 
     .theme-switch {
+      align-self: flex-start;
       margin-left: auto;
       margin-right: 0.5rem;
-      padding: 0.2rem 0.5rem;
+      margin-top: 0.3rem;
+      padding: 0;
       white-space: nowrap;
 
       .theme-switch__label {
-        font-size: $type-size-7;
+        font-size: 1.15rem;
       }
     }
 
