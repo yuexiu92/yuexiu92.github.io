@@ -7,7 +7,7 @@
 
 # Site Settings
 title       : "Yue Xiu (修越)"
-description : "Postdoctoral Researcher at UESTC. Research in energy-efficient wireless communications, integrated sensing and communication, movable antennas, and reconfigurable intelligent surfaces."
+description : "Postdoctoral Researcher at UESTC. Research in large language models, agentic AI, efficient learning and inference, and AI systems for wireless networks."
 url         : "https://xiuyue.org"
 baseurl     : ""
 repository  : "yuexiu92/yuexiu92.github.io"
@@ -31,12 +31,12 @@ author:
   bio           : "Postdoctoral Researcher, UESTC"
   bio_zh        : "电子科技大学博士后"
   affiliation   : "National Key Laboratory of Wireless Communications"
-  affiliation_zh: "无线通信国家重点实验室"
+  affiliation_zh: "通信抗干扰全国重点实验室"
   location      : "Chengdu, China"
   location_zh   : "中国 · 成都"
   email         : "yunis@uestc.edu.cn"
   googlescholar : "https://scholar.google.com/citations?user=m2X_ZS0AAAAJ"
-  github        : ""
+  github        : "yuexiu92"
 
 
 # Reading Files
@@ -54,6 +54,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - images/institutions/README.md
   - push.sh
   - run_server.sh
   - vendor

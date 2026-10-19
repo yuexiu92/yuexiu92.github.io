@@ -1,0 +1,26 @@
+# Institution icons
+
+These local assets identify the institutions in the homepage banner, Education, and Experience sections.
+
+| File | Institution | Source | Preparation |
+| --- | --- | --- | --- |
+| `uestc.png` | University of Electronic Science and Technology of China | User-provided `校徽.png` | Original 1673 × 1673 PNG, copied without modification; retained as a high-resolution alternative. |
+| `uestc-color.svg` | University of Electronic Science and Technology of China | User-provided `校徽.ai` | All 16 original vector paths, cropped to the seal; used in light mode. |
+| `uestc-white.svg` | University of Electronic Science and Technology of China | User-provided `校徽不同底色 (1).ai` | Official reverse-white mark from the top row, third logo column; all 15 original paths retained. Eight knockout paths form a vector mask so the lettering, year, and center remain transparent. Used for Education and Experience in dark mode. |
+| `uestc-color.png` | University of Electronic Science and Technology of China | User-provided `校徽白边.png` | Original 497 × 497 color seal with white rim, copied without modification; retained as an alternative. |
+| `uestc-white.png` | University of Electronic Science and Technology of China | User-provided `校徽反白.png` | Original 497 × 496 white seal with transparency, copied without modification; retained as an alternative. |
+| `uestc-monochrome.png` | University of Electronic Science and Technology of China | User-provided `校徽单色.png` | Original 497 × 496 monochrome seal, copied without modification; retained as an alternative. |
+| `uestc-wordmark-en-white.svg` | University of Electronic Science and Technology of China | Reverse-white AI seal plus user-provided English wordmark | Retained alternative at the original 4510 × 810 proportions. The seal is vector; the lettering is an embedded crop of the original high-resolution PNG with its alpha unchanged and foreground set to white. |
+| `uestc-wordmark-zh-white.svg` | University of Electronic Science and Technology of China | Reverse-white AI seal plus user-provided Chinese wordmark | Retained alternative at the original 3840 × 989 proportions. The seal is vector; the original calligraphy is preserved as an embedded high-resolution crop, with its alpha unchanged and foreground set to white. |
+| `uestc-wordmark-en.png` | University of Electronic Science and Technology of China | User-provided `校标组合2-英.png` | Original 4510 × 810 English horizontal combination, copied without modification; retained as the lettering source. |
+| `uestc-wordmark-zh.png` | University of Electronic Science and Technology of China | User-provided `校标组合-2.png` | Original 3840 × 989 Chinese horizontal combination, copied without modification; retained as the lettering source. |
+| `uestc-wordmark.png` | University of Electronic Science and Technology of China | User-provided `校标组合1.png` | Original 4317 × 981 bilingual horizontal combination, copied without modification; displayed in both site languages on the light-blue banner. |
+| `ntu.png` | Nanyang Technological University, Singapore | [Official NTU logo](https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/NTU_Logo.png) | Shield cropped from the official logo, resized proportionally to 200 × 256. |
+| `cafuc.png` | Civil Aviation Flight University of China | [Official visual identity system](https://vi.cafuc.edu.cn/jcxt/xxbz.htm), [logo plate](https://vi.cafuc.edu.cn/__local/8/91/F6/2B5CDA2515107B3F0E6FA98EE03_64626EA7_B4E86.jpg) | Standard red seal cropped with its white background, resized to 256 × 256. |
+| `huawei.svg` | Huawei | [Standard logo file on English Wikipedia](https://en.wikipedia.org/wiki/File:Huawei_Standard_logo.svg), [original SVG](https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg) | Original red flower path retained without redrawing; unused document elements and wordmark removed. ViewBox preserves the flower's proportions. |
+
+Retrieved on 2026-10-19. Institutional marks retain their respective owners' identities and colors.
+
+The compact sticky header displays the original bilingual PNG without recoloring, CSS inversion, brightness, or blending. Its background transitions from pale blue `#e0eeff` through `#abcff8` to a stronger blue `#6c9cdb`, with a cyan glow, a denser blue dot pattern on the left, and blue, cyan, and indigo arcs from `images/header-lines.svg` on the right. Navigation text uses deep navy `#082847` to remain clear over the darker gradient. The university mark and laboratory name sit on the left, with navigation on the right. This treatment also applies in dark mode so the original blue mark remains legible. The supplied web palette uses deep blue `#004098` and orange `#f08300`; pale blue surfaces are tints of the primary blue. Supplementary colors are kept in reserve.
+
+The AI files are PDF-compatible Illustrator documents. Their original paths were exported with `pdftocairo -svg`, then cropped without tracing or redrawing. The color seal uses viewBox `351.425781 49.460938 636.542969 636.539062`; the reverse-white seal uses `655.394531 100.59375 38.183594 38.179688` from the background-usage matrix. The supplied horizontal combinations contain PNG lettering only, so the banner SVGs deliberately retain those original letterforms rather than substitute a font.

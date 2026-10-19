@@ -1,30 +1,38 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <a class="masthead__brand" href="{{ '/' | relative_url }}#about-me">
+          <img class="masthead__university-logo" src="{{ '/images/institutions/uestc-wordmark.png' | relative_url }}" alt="电子科技大学 · University of Electronic Science and Technology of China" width="4317" height="981">
+          <span class="masthead__lab">
+            <span class="masthead__lab-name" lang="zh-CN">通信抗干扰全国重点实验室</span>
+            <span class="masthead__lab-name-en" lang="en">National Key Laboratory of Wireless Communications</span>
+          </span>
+        </a>
+        <ul id="primary-menu" class="visible-links">
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}"><span data-zh="{{ link.title_zh }}">{{ link.title }}</span></a></li>
+          {% endfor %}
+        </ul>
+        <div class="masthead__tools">
+          <button
+            type="button"
+            id="theme-switch"
+            class="theme-switch"
+            aria-pressed="false"
+            aria-label="Switch color theme">
+            <span class="theme-switch__label" aria-hidden="true">
+              <span class="theme-switch__moon">{% include icon.html name="moon" %}</span>
+              <span class="theme-switch__sun">{% include icon.html name="sun" %}</span>
+            </span>
+          </button>
+          <button type="button" id="language-switch" class="language-switch" aria-label="切换到中文" lang="zh-CN" hidden><span class="language-switch__label">中文</span></button>
+        </div>
         <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
           <span class="screen-reader-text" data-zh="展开或收起导航">Toggle navigation</span>
           <span class="nav-toggle__menu">{% include icon.html name="menu" %}</span>
           <span class="nav-toggle__close">{% include icon.html name="close" %}</span>
         </button>
-        <button
-          type="button"
-          id="theme-switch"
-          class="theme-switch"
-          aria-pressed="false"
-          aria-label="Switch color theme">
-          <span class="theme-switch__label" aria-hidden="true">
-            <span class="theme-switch__moon">{% include icon.html name="moon" %}</span>
-            <span class="theme-switch__sun">{% include icon.html name="sun" %}</span>
-          </span>
-        </button>
-        <button type="button" id="language-switch" class="language-switch" aria-label="切换到中文" lang="zh-CN" hidden>{% include icon.html name="globe" %}<span class="language-switch__label">中文</span></button>
-        <ul id="primary-menu" class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}#about-me" data-zh="修越">Yue Xiu</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{% include icon.html name=link.icon %}<span data-zh="{{ link.title_zh }}">{{ link.title }}</span></a></li>
-          {% endfor %}
-        </ul>
       </nav>
     </div>
   </div>

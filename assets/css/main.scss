@@ -35,7 +35,7 @@
 
 html {
   scroll-behavior: auto;
-  scroll-padding-top: 2rem;
+  scroll-padding-top: calc(var(--site-header-height, 6rem) + 2.5rem);
 }
 
 $scroll_offset : 2em;

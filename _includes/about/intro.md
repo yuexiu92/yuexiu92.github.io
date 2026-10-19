@@ -1,16 +1,7 @@
-I am **Yue Xiu (修越)**, a Postdoctoral Researcher at the National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC), Chengdu, China.
+I am **Yue Xiu (修越)**, a Postdoctoral Researcher at the **National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC)**, Chengdu, China.
 
-My research focuses on energy-efficient and sustainable wireless communications. I study beamforming, resource allocation, and learning-based optimization for integrated sensing and communication (ISAC), movable antennas, reconfigurable intelligent surfaces (RISs), cell-free networks, and mobile edge computing.
+My research focuses on **large language models and agentic AI**, with particular interests in memory-augmented agents, neuro-symbolic reasoning, and efficient learning and inference. My recent work investigates how memory organization, context engineering, and multi-agent coordination can support reliable reasoning under computational and resource constraints. I am also interested in mixture-of-experts architectures, reinforcement learning, and parameter-efficient and federated fine-tuning of large language models.
 
-I received my Ph.D. from UESTC in 2022. From 2019 to 2021, I was a visiting student at the Computer Networks and Communication Lab, Nanyang Technological University, Singapore. Before joining UESTC in 2024, I worked as an engineer at Huawei Technologies in Chengdu.
+Building on my background in wireless communications and optimization, I also study the interaction between **AI systems and wireless networks**, including distributed learning, edge intelligence, and energy-efficient resource allocation. My broader research experience spans integrated sensing and communication (ISAC), movable antennas, reconfigurable intelligent surfaces, cell-free networks, and mobile edge computing.
 
-[Email](mailto:yunis@uestc.edu.cn) · [Google Scholar](https://scholar.google.com/citations?user=m2X_ZS0AAAAJ)
-
-## Research Interests
-
-- Energy-efficient wireless communications, resource allocation, and beamforming
-- Integrated sensing and communication, including cooperative and cell-free ISAC under imperfect synchronization and CSI
-- Movable antennas, flexible arrays, RISs, and millimeter-wave systems
-- Joint communication, sensing, computing, and wireless power transfer
-- Physical-layer security and robust wireless system design
-- AI and reinforcement learning for wireless network optimization
+I received my Ph.D. from UESTC in 2022. From 2019 to 2021, I was a visiting student at the Computer Networks and Communication Lab, Nanyang Technological University, Singapore. Before joining UESTC as a Postdoctoral Researcher in 2024, I worked as an engineer at Huawei Technologies in Chengdu.

@@ -1,4 +1,14 @@
 (() => {
+  const siteHeader = document.querySelector('.site-header');
+  const updateHeaderHeight = () => {
+    if (!siteHeader) return;
+    document.documentElement.style.setProperty('--site-header-height', `${siteHeader.getBoundingClientRect().height}px`);
+  };
+  if (siteHeader) {
+    updateHeaderHeight();
+    new ResizeObserver(updateHeaderHeight).observe(siteHeader);
+  }
+
   const nav = document.querySelector('.greedy-nav');
   const navButton = nav?.querySelector('.nav-toggle');
   const menu = nav?.querySelector('.visible-links');
@@ -8,6 +18,7 @@
       nav.classList.remove('is-open');
       navButton.classList.remove('close');
       navButton.setAttribute('aria-expanded', 'false');
+      updateHeaderHeight();
     };
 
     navButton.addEventListener('click', () => {
@@ -17,6 +28,7 @@
     });
 
     menu.addEventListener('click', closeMenu);
+    nav.querySelector('.masthead__brand')?.addEventListener('click', closeMenu);
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') closeMenu();
     });
@@ -94,7 +106,7 @@
     themeButton.setAttribute('aria-pressed', String(isDark));
     updateThemeLabel();
 
-    const themeColor = isDark ? '#142338' : '#0055a2';
+    const themeColor = isDark ? '#142338' : '#004098';
     const themeMeta = document.querySelector('meta[name="theme-color"]');
     if (themeMeta) themeMeta.setAttribute('content', themeColor);
   };

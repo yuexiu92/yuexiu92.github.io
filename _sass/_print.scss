@@ -7,6 +7,10 @@
    ========================================================================== */
 
 @media print {
+  .site-header {
+    position: static;
+  }
+
   .masthead,
   .toc,
   .page__share,

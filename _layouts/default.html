@@ -11,14 +11,9 @@
   <body{% if page.author_profile or layout.author_profile %} class="has-author-profile"{% endif %}>
 
     <a class="screen-reader-shortcut" href="#main" data-zh="跳转到正文">Skip to main content</a>
-    {% include masthead.html %}
-    <header class="site-banner">
-      <div class="site-banner__inner">
-        <p class="site-banner__eyebrow">UESTC · <span lang="zh-CN">电子科技大学</span></p>
-        <p class="site-banner__title" data-zh="无线通信">Wireless Communications</p>
-        <p class="site-banner__summary" data-zh="高能效网络 · 通感一体化">Energy-efficient networks · Integrated sensing and communication</p>
-      </div>
-    </header>
+    <div class="site-header">
+      {% include masthead.html %}
+    </div>
 
     <div id="main" role="main">
       {% include sidebar.html %}

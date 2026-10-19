@@ -3,22 +3,23 @@
    ========================================================================== */
 
 :root {
-  --brand-blue: #0055a2;
-  --theme-accent: #0055a2;
-  --theme-bg: #f3f6fb;
+  --brand-blue: #004098;
+  --brand-orange: #f08300;
+  --theme-accent: #004098;
+  --theme-bg: #f2f5fa;
   --theme-surface: #ffffff;
-  --theme-surface-alt: #edf4fb;
-  --theme-border: #dce5ef;
+  --theme-surface-alt: #edf2f8;
+  --theme-border: #d9e2f0;
   --theme-text: #26364a;
   --theme-text-soft: #53657a;
   --theme-heading: #15395f;
-  --theme-link: #0055a2;
-  --theme-link-hover: #003d75;
+  --theme-link: #004098;
+  --theme-link-hover: #00337a;
   --theme-code-bg: #fafafa;
-  --theme-code-meta: #eef3f9;
+  --theme-code-meta: #eef2f8;
   --theme-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
 
-  --theme-selection-bg: #d4e8fc;
+  --theme-selection-bg: #d6e2f0;
   --theme-selection-text: #15395f;
 
   color-scheme: light;
@@ -86,7 +87,7 @@ a:active {
 }
 
 .greedy-nav {
-  background: transparent;
+  background: var(--theme-surface);
 }
 
 .theme-switch {

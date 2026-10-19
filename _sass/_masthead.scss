@@ -3,8 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky;
-  top: 0;
+  position: relative;
   background-color: white;
   border-bottom: 1px solid $border-color;
   z-index: 20;
@@ -12,12 +11,9 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    max-width: 1600px;
+    padding: 0.6rem 1.5rem;
     font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
 
     nav {
       z-index: 10;
@@ -39,21 +35,9 @@
   }
 }
 
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
-}
-
 .masthead__menu-item {
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
-  &--lg {
-    padding-right: 2em;
-    font-weight: 600;
-  }
 }
 

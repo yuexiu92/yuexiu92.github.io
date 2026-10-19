@@ -1,5 +1,7 @@
+<section class="{{ include.class | default: 'section-card' }}" aria-labelledby="{{ include.id }}">
 <h1 id="{{ include.id }}" class="section-heading">{% include icon.html name=include.icon %}<span data-zh="{{ include.title_zh }}">{{ include.title }}</span></h1>
 {% capture english %}{% include about/{{ include.file }}.md %}{% endcapture %}
 <div data-language="en" lang="en">{{ english | markdownify }}</div>
 {% capture chinese %}{% include about/zh/{{ include.file }}.md %}{% endcapture %}
 <div data-language="zh-CN" lang="zh-CN">{{ chinese | markdownify }}</div>
+</section>

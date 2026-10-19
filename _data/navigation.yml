@@ -10,15 +10,15 @@ main:
     title_zh: "教育经历"
     url: "/#education"
 
-  - title: "Publications"
-    icon: "book"
-    title_zh: "代表性论文"
-    url: "/#publications"
-
   - title: "Experience"
     icon: "briefcase"
     title_zh: "工作经历"
     url: "/#experience"
+
+  - title: "Publications"
+    icon: "book"
+    title_zh: "代表性论文"
+    url: "/#publications"
 
   - title: "Projects"
     icon: "folder"

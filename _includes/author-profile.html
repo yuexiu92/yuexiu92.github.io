@@ -10,8 +10,7 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
-    {% if author.name_zh %}<p class="author__name-zh" lang="zh-CN">{{ author.name_zh }}</p>{% endif %}
+    <h3 class="author__name" itemprop="name">{{ author.name }}{% if author.name_zh %} <span class="author__name-zh" lang="zh-CN">({{ author.name_zh }})</span>{% endif %}</h3>
     {% if author.bio %}<p class="author__bio" data-zh="{{ author.bio_zh | default: author.bio }}">{{ author.bio }}</p>{% endif %}
   </div>
 
@@ -20,8 +19,12 @@
       {% if author.affiliation %}<li class="author__affiliation">{% include icon.html name="building" %}<span data-zh="{{ author.affiliation_zh | default: author.affiliation }}">{{ author.affiliation }}</span></li>{% endif %}
       {% if author.location %}<li>{% include icon.html name="pin" %}<span><span class="author__label" data-zh="所在地">Location:</span> <span data-zh="{{ author.location_zh | default: author.location }}">{{ author.location }}</span></span></li>{% endif %}
       {% if author.email %}<li><a href="mailto:{{ author.email }}">{% include icon.html name="mail" %}<span>{{ author.email }}</span></a></li>{% endif %}
-      {% if author.github and author.github != "" %}<li><a href="https://github.com/{{ author.github }}">{% include icon.html name="code" %}<span>GitHub</span></a></li>{% endif %}
-      {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}">{% include icon.html name="graduation" %}<span data-zh="谷歌学术">Google Scholar</span></a></li>{% endif %}
+      {% if author.github or author.googlescholar %}
+      <li class="author__social-links">
+        {% if author.github and author.github != "" %}<a class="social-icon-link" href="https://github.com/{{ author.github }}" aria-label="GitHub" title="GitHub">{% include icon.html name="github" %}</a>{% endif %}
+        {% if author.googlescholar %}<a class="social-icon-link" href="{{ author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
+      </li>
+      {% endif %}
     </ul>
   </div>
 </div>
