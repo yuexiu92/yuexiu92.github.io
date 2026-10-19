@@ -33,11 +33,17 @@ bundle install
 
 网站托管已迁至 Cloudflare；DNS 仍由 Squarespace 管理，DNSSEC 已开启，Google Workspace 的 MX、SPF 和 DKIM 记录已保留。完整 DNS 迁移仍待后续处理。
 
-当前工作流是：本地修改 → 本地预览 → 提交并推送 GitHub 保存源码 → 在本地构建网站 → 手动上传 Cloudflare Pages 发布。GitHub 保存源码，Cloudflare 托管构建后的网页；目前没有配置两者之间的自动部署。
+当前工作流是：本地修改 → 本地预览 → 提交并推送 GitHub 的 `main` 分支 → GitHub Actions 自动构建 → 发布到现有 Cloudflare Pages 项目。
 
-`zsh push.sh` 只会执行 `git add .`、`git commit` 和 `git push`，不会构建或发布 Cloudflare 网站。它会提交当前所有改动，运行前先用 `git diff` 检查。
+自动发布配置位于 [`.github/workflows/cloudflare-pages.yml`](.github/workflows/cloudflare-pages.yml)。构建完成后，工作流上传生成的网页文件，正式地址和备用地址会一起更新。可以在 GitHub 仓库的 **Actions → Deploy to Cloudflare Pages** 查看进度；也可以使用 **Run workflow**，选择 `main` 手动重发。
 
-推送源码后，在仓库根目录构建并打包（Cloudflare Direct Upload 直接使用这些本地构建文件，不会从 GitHub 拉取）：
+`zsh push.sh` 执行 `git add .`、`git commit` 和 `git push`；推送成功后由 GitHub Actions 负责构建和发布。脚本会提交当前所有改动，运行前先用 `git diff` 检查。
+
+首次配置需要在 GitHub 仓库的 **Settings → Secrets and variables → Actions** 中保存名为 `CLOUDFLARE_API_TOKEN` 的发布密钥。令牌只授予现有 Cloudflare 账户的 **Cloudflare Pages → Edit** 权限；账户 ID 已写入工作流，不需要额外的账户 ID 密钥。不要把令牌写进源文件或提交到 Git。
+
+自动发布使用 Cloudflare 的 HTTPS 服务，无需等待 GitHub Pages 的自定义域名证书。
+
+需要手动发布时，仍可在仓库根目录构建并打包：
 
 ```bash
 JEKYLL_ENV=production bundle exec jekyll build --destination /private/tmp/xiuyue-cloudflare-site
