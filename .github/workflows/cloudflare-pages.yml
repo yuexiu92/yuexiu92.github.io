@@ -45,3 +45,13 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 9a98fecbe4e4a2670887868ed0811791
           command: pages deploy _site --project-name=xiuyue-homepage --branch=main
+
+      - name: Verify public domains
+        run: |
+          for url in https://xiuyue.org/ https://www.xiuyue.org/; do
+            curl --fail --silent --show-error --location \
+              --retry 3 --retry-delay 3 --max-time 30 \
+              --output /tmp/deployed-homepage.html "$url"
+            cmp _site/index.html /tmp/deployed-homepage.html
+            printf 'Verified deployed homepage at %s\n' "$url"
+          done
