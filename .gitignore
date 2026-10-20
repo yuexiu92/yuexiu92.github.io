@@ -11,3 +11,4 @@ vendor/bundle/
 # 忽略自定义的推送脚本文件
 push.sh
 .vscode/
+_private/

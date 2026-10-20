@@ -36,6 +36,8 @@ author:
   location_zh   : "中国 · 成都"
   email         : "yunis@uestc.edu.cn"
   googlescholar : "https://scholar.google.com/citations?user=m2X_ZS0AAAAJ"
+  scholar_citations: 2028
+  scholar_citations_updated: "2026-10-20"
   github        : "yuexiu92"
 
 
@@ -50,6 +52,7 @@ exclude:
   - .sass-cache
   - .vscode
   - _site
+  - _private
   - Gemfile
   - Gemfile.lock
   - LICENSE

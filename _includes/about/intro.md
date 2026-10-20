@@ -1,4 +1,4 @@
-I am **Yue Xiu (修越)**, a Postdoctoral Researcher at the **National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC)**, Chengdu, China.
+I am **Yue Xiu (修越)**, a Postdoctoral Researcher at the **National Key Laboratory of Wireless Communications, University of Electronic Science and Technology of China (UESTC)**, Chengdu, China. I am also a member of the **China Institute of Communications (CIC)**.
 
 My research focuses on **large language models and agentic AI**, with particular interests in memory-augmented agents, neuro-symbolic reasoning, and efficient learning and inference. My recent work investigates how memory organization, context engineering, and multi-agent coordination can support reliable reasoning under computational and resource constraints. I am also interested in mixture-of-experts architectures, reinforcement learning, and parameter-efficient and federated fine-tuning of large language models.
 

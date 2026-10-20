@@ -10,21 +10,24 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}{% if author.name_zh %} <span class="author__name-zh" lang="zh-CN">({{ author.name_zh }})</span>{% endif %}</h3>
-    {% if author.bio %}<p class="author__bio" data-zh="{{ author.bio_zh | default: author.bio }}">{{ author.bio }}</p>{% endif %}
+    <div class="author__heading">
+      <h3 class="author__name" itemprop="name">Dr. {{ author.name }}{% if author.name_zh %} <span class="author__name-zh" lang="zh-CN">({{ author.name_zh }})</span>{% endif %}</h3>
+      {% if author.googlescholar and author.scholar_citations %}
+      <a class="scholar-citation-badge" href="{{ author.googlescholar }}" aria-label="Google Scholar, {{ author.scholar_citations }} citations" title="Google Scholar{% if author.scholar_citations_updated %} · Citations updated {{ author.scholar_citations_updated }}{% endif %}">
+        <span class="scholar-citation-badge__label">{% include icon.html name="google-scholar" %}<span>cite</span></span>
+        <span class="scholar-citation-badge__count">{{ author.scholar_citations }}</span>
+      </a>
+      {% endif %}
+    </div>
+    {% if author.email %}<p class="author__email"><a href="mailto:{{ author.email }}">{{ author.email }}</a></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <ul class="author__urls">
-      {% if author.affiliation %}<li class="author__affiliation">{% include icon.html name="building" %}<span data-zh="{{ author.affiliation_zh | default: author.affiliation }}">{{ author.affiliation }}</span></li>{% endif %}
-      {% if author.location %}<li>{% include icon.html name="pin" %}<span><span class="author__label" data-zh="所在地">Location:</span> <span data-zh="{{ author.location_zh | default: author.location }}">{{ author.location }}</span></span></li>{% endif %}
-      {% if author.email %}<li><a href="mailto:{{ author.email }}">{% include icon.html name="mail" %}<span>{{ author.email }}</span></a></li>{% endif %}
-      {% if author.github or author.googlescholar %}
-      <li class="author__social-links">
-        {% if author.github and author.github != "" %}<a class="social-icon-link" href="https://github.com/{{ author.github }}" aria-label="GitHub" title="GitHub">{% include icon.html name="github" %}</a>{% endif %}
-        {% if author.googlescholar %}<a class="social-icon-link" href="{{ author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
-      </li>
-      {% endif %}
+      {% if author.location %}<li>{% include icon.html name="pin" %}<span data-zh="{{ author.location_zh | default: author.location }}">{{ author.location }}</span></li>{% endif %}
+      {% if author.email %}<li><a class="author__contact-link" href="mailto:{{ author.email }}">{% include icon.html name="mail" %}<span data-zh="邮箱">Email</span></a></li>{% endif %}
+      {% if author.github and author.github != "" %}<li><a class="author__contact-link" href="https://github.com/{{ author.github }}">{% include icon.html name="github" %}<span>GitHub</span></a></li>{% endif %}
+      {% if author.googlescholar %}<li><a class="author__contact-link" href="{{ author.googlescholar }}">{% include icon.html name="google-scholar" %}<span data-zh="谷歌学术">Google Scholar</span></a></li>{% endif %}
     </ul>
   </div>
 </div>

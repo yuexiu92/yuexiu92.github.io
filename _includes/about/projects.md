@@ -5,6 +5,11 @@
     <p>National Natural Science Foundation of China. High-accuracy sensing for millimeter-wave cooperative ISAC systems with imperfect time-frequency synchronization.</p>
   </article>
   <article class="project-card">
+    <p class="project-card__meta">2024–2026</p>
+    <h3>Cooperative ISAC Prototype Development and Validation</h3>
+    <p>Millimeter-wave prototype development and system validation for cooperative integrated sensing and communication under imperfect synchronization and interference, covering robust beamforming, multi-target sensing, and multi-node cooperation.</p>
+  </article>
+  <article class="project-card">
     <p class="project-card__meta">2023–Present <span class="project-card__tag">Participant</span></p>
     <h3>Key R&amp;D Program on Millimeter-Wave Communication Networks for 6G</h3>
     <p>Research on scalable and intelligent network management for high-frequency wireless systems.</p>
