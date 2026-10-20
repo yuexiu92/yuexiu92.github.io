@@ -49,9 +49,15 @@ jobs:
       - name: Verify public domains
         run: |
           for url in https://xiuyue.org/ https://www.xiuyue.org/; do
-            curl --fail --silent --show-error --location \
-              --retry 3 --retry-delay 3 --max-time 30 \
-              --output /tmp/deployed-homepage.html "$url"
-            cmp _site/index.html /tmp/deployed-homepage.html
-            printf 'Verified deployed homepage at %s\n' "$url"
+            for path in index.html assets/css/main.css assets/js/main.js \
+              images/institutions/uestc-wordmark.png \
+              assets/fonts/source-sans-3/source-sans-3-latin-normal.woff2; do
+              public_path="$path"
+              if [ "$path" = index.html ]; then public_path=""; fi
+              curl --fail --silent --show-error --location \
+                --retry 3 --retry-delay 3 --max-time 30 \
+                --output /tmp/deployed-asset "${url}${public_path}"
+              cmp "_site/$path" /tmp/deployed-asset
+              printf 'Verified deployed asset at %s%s\n' "$url" "$public_path"
+            done
           done
