@@ -148,12 +148,33 @@ html[lang="zh-CN"] [data-language="en"] {
 .page__content .section-card > .section-heading { margin-top: 0; }
 
 .publications-section {
-  counter-reset: publication;
+  .publication-year {
+    border-top: 1px solid var(--theme-border);
 
-  > ol > li {
-    counter-increment: publication;
+    > summary {
+      padding: 0.85rem 0;
+      color: var(--theme-heading);
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
 
-    &::marker { content: "[" counter(publication) "] "; }
+      &::marker { color: var(--theme-accent); }
+      &:hover { color: var(--theme-link); }
+      &:focus-visible { outline: 2px solid var(--theme-accent); outline-offset: 3px; }
+    }
+
+    > ol {
+      margin-top: 0.4rem;
+
+      > li::marker { content: "[" counter(list-item) "] "; }
+    }
+  }
+
+  .publication-count {
+    margin-left: 0.7rem;
+    color: var(--theme-text-soft);
+    font-size: 0.9rem;
+    font-weight: 400;
   }
 
   img[alt^="Citations:"] {

@@ -2,7 +2,8 @@
 
 <!-- Google Scholar citation snapshot, checked 2026-10-20. Show badges only for counts greater than 30. Update the count in both the badge alt text and its Shields.io URL. -->
 
-## 2026
+<details class="publication-year" open markdown="1">
+<summary id="2026"><span>2026</span> <span class="publication-count" data-zh="13 篇">13 papers</span></summary>
 
 1. `TWC` [Robust optimization for movable antenna-aided cell-free ISAC with time synchronization errors](https://doi.org/10.1109/TWC.2026.3652128), **Yue Xiu**, Yang Zhao, Ran Yang, et al., *IEEE Transactions on Wireless Communications*, vol. 25, pp. 10082–10097, 2026. [![Citations: 45](https://img.shields.io/badge/Citations-45-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7809847396481183930)
 1. `TCOM` [Movable antenna-aided cooperative ISAC network with time synchronization error and imperfect CSI](https://doi.org/10.1109/TCOMM.2025.3648983), **Yue Xiu**, Yang Zhao, Ran Yang, et al., *IEEE Transactions on Communications*, vol. 74, pp. 2968–2983, 2026. [![Citations: 55](https://img.shields.io/badge/Citations-55-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15340980648752576834)
@@ -18,7 +19,10 @@
 1. `ICCC` [A Physics-Guided Mixture of Experts Framework for Energy-Efficient Electromagnetic Interference Recognition in Global Navigation Satellite Systems](https://doi.org/10.1109/iccc70295.2026.11680192), Zhihan Zeng, Ning Wei, **Yue Xiu**, Guan Gui, Jiao Wu, Kaihe Wang, Zhongpei Zhang, *2026 IEEE/CIC International Conference on Communications in China (ICCC)*, pp. 760–765, 2026.
 1. `ICLR` [CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8598c5d05e1d045919962e430b0bdf0d-Abstract-Conference.html), Yang Zhao, Chengxiao Dai, Wei Zhuo, **Yue Xiu**, Dusit Niyato, *International Conference on Learning Representations (ICLR)*, pp. 82680–82706, 2026.
 
-## 2025
+</details>
+
+<details class="publication-year" markdown="1">
+<summary id="2025"><span>2025</span> <span class="publication-count" data-zh="15 篇">15 papers</span></summary>
 
 1. `TWC` [Robust beamforming design for near-field DMA-NOMA mmWave communications with imperfect position information](https://doi.org/10.1109/TWC.2024.3511719), **Yue Xiu**, Yang Zhao, Songjie Yang, et al., *IEEE Transactions on Wireless Communications*, vol. 24, pp. 1678–1692, 2025. [![Citations: 45](https://img.shields.io/badge/Citations-45-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=213376013006249434)
 1. `WCL` [Movable antenna enabled ISAC beamforming design for low-altitude airborne vehicles](https://doi.org/10.1109/LWC.2025.3538587), **Yue Xiu**, Songjie Yang, et al., *IEEE Wireless Communications Letters*, vol. 14, pp. 1311–1315, 2025. [![Citations: 88](https://img.shields.io/badge/Citations-88-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17170772106615035391)
@@ -35,8 +39,12 @@
 1. `EIT` [AI-based Downlink Channel Reconstruction for FDD Massive MIMO System With Uplink Channel Spatial Information](https://doi.org/10.1109/eit67313.2025.11231870), **Yue Xiu**, Wenqi Fan, Wenge Shi, Zirui Wen, Yang Wang, Yuang Fang, Ning Wei, *2025 4th International Conference on Electronic Information Technology (EIT)*, pp. 149–154, 2025.
 1. `ICC Workshops` [Joint Transceiver Design for RIS Enhanced Dual-Functional Radar-Communication with Movable Antenna](https://doi.org/10.1109/iccworkshops67674.2025.11162245), Ran Yang, Zheng Dong, Peng Cheng, **Yue Xiu**, Yan Li, Ning Wei, *2025 IEEE International Conference on Communications Workshops (ICC Workshops)*, pp. 62–67, 2025.
 1. `ICC` [Movable Antenna-Aided Federated Learning with Over-The-Air Aggregation: Joint Optimization of Positioning, Beamforming, and User Selection](https://doi.org/10.1109/icc52391.2025.11161172), Yang Zhao, **Yue Xiu**, Minrui Xu, Ning Wei, *ICC 2025 - IEEE International Conference on Communications*, pp. 2785–2790, 2025.
+{:start="14"}
 
-## 2024
+</details>
+
+<details class="publication-year" markdown="1">
+<summary id="2024"><span>2024</span> <span class="publication-count" data-zh="10 篇">10 papers</span></summary>
 
 1. `Machines` [An Optimization Method for Multi-Robot Automatic Welding Control Based on Particle Swarm Genetic Algorithm](https://doi.org/10.3390/machines12110763), Lu Chen, Jie Tan, Tianci Wu, Zengxin Tan, Guobo Yuan, Yuhao Yang, Chiang Liu, Haoyu Zhou, Weisi Xie, **Yue Xiu**, Gun Li, *Machines*, vol. 12, no. 11, Art. no. 763, 2024.
 1. `Sensors` [An Adaptive Parameter Optimization Deep Learning Model for Energetic Liquid Vision Recognition Based on Feedback Mechanism](https://doi.org/10.3390/s24206733), Lu Chen, Yuhao Yang, Tianci Wu, Chiang Liu, Yang Li, Jie Tan, Weizhong Qian, Liang Yang, **Yue Xiu**, Gun Li, *Sensors*, vol. 24, no. 20, Art. no. 6733, 2024.
@@ -48,3 +56,6 @@
 1. `TWC` [Reconfigurable Intelligent Surface-Aided Full-Duplex mmWave MIMO: Channel Estimation, Passive and Hybrid Beamforming](https://doi.org/10.1109/TWC.2023.3300719), Songjie Yang, Wanting Lyu, **Yunis Xanthos**, Zhongpei Zhang, Chadi Assi, Chau Yuen, *IEEE Transactions on Wireless Communications*, vol. 23, no. 4, pp. 2575–2590, 2024. [![Citations: 31](https://img.shields.io/badge/Citations-31-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3179831727816553797)
 1. `ICCC` [Deep Learning for Movable Antenna Precoding in 2D MISO Communication System](https://doi.org/10.1109/iccc62609.2024.10942278), Chenfei Xie, **Yue Xiu**, Songjie Yang, Zhongpei Zhang, *2024 10th International Conference on Computer and Communications (ICCC)*, pp. 2500–2504, 2024.
 1. `ICCT` [Flexible Beamforming for Movable Antenna-Enabled Integrated Sensing and Communication](https://doi.org/10.1109/icct62411.2024.10946353), Wanting Lyu, Songjie Yang, **Yue Xiu**, Zhongpei Zhang, Chadi Assi, Chau Yuen, *2024 IEEE 24th International Conference on Communication Technology (ICCT)*, pp. 1315–1320, 2024. [![Citations: 43](https://img.shields.io/badge/Citations-43-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=559729652042829680)
+{:start="29"}
+
+</details>
