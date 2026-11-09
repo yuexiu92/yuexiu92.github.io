@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Git ref to deploy after an automated citation commit
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -19,6 +25,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.ref }}
 
       - uses: ruby/setup-ruby@v1
         with:
