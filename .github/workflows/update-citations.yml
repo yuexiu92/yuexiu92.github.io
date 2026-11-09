@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 10
     permissions:
       contents: write
