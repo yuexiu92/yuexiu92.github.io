@@ -13,7 +13,7 @@
       <tr><th scope="row">High-accuracy sensing for millimeter-wave cooperative ISAC with imperfect time-frequency synchronization</th><td>NSFC Young Scientists Fund</td><td class="project-table__period">2027.01–2029.12</td><td class="project-table__number">30.00</td><td class="project-table__number"><span class="project-rank">1</span></td></tr>
       <tr><th scope="row">Research and validation of scenario-customizable wireless systems for 6G</th><td>National Science and Technology Major Project on Mobile Information Networks</td><td class="project-table__period">2026.12–2029.12</td><td class="project-table__number">110.00</td><td class="project-table__number"><span class="project-rank">1</span></td></tr>
       <tr><th scope="row">Research and validation of multi-source fusion and intelligent cooperative ISAC technologies for 6G</th><td>National Science and Technology Major Project on Mobile Information Networks</td><td class="project-table__period">2025.07–2028.06</td><td class="project-table__number">120.00</td><td class="project-table__number">2</td></tr>
-      <tr><th scope="row">Development of millimeter-wave ****** demodulation equipment</th><td>xxx</td><td class="project-table__period">2025.03–2026.12</td><td class="project-table__number">320.50</td><td class="project-table__number">3</td></tr>
+      <tr><th scope="row">Millimeter-wave ******</th><td>xxx</td><td class="project-table__period">2025.03–2026.12</td><td class="project-table__number">320.50</td><td class="project-table__number">3</td></tr>
     </tbody>
   </table>
 </div>
