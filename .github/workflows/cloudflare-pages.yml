@@ -51,6 +51,13 @@ jobs:
           for url in https://xiuyue.org/ https://www.xiuyue.org/; do
             for path in index.html assets/css/main.css assets/js/main.js \
               images/institutions/uestc-wordmark.png \
+              images/isac-prototype-hardware.png \
+              images/isac-cooperative-sensing-interface.png \
+              images/isac-field-test-platform.png \
+              images/isac-indoor-test-overview.png \
+              images/isac-indoor-test-setup.jpg \
+              images/jcin-youth-editorial-board-certificate.jpg \
+              images/tnsm-exemplary-editor-2025.jpg \
               assets/fonts/source-sans-3/source-sans-3-latin-normal.woff2; do
               public_path="$path"
               if [ "$path" = index.html ]; then public_path=""; fi
