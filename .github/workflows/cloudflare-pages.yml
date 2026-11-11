@@ -55,9 +55,9 @@ jobs:
               images/isac-cooperative-sensing-interface.png \
               images/isac-field-test-platform.png \
               images/isac-indoor-test-overview.png \
-              images/isac-indoor-test-setup.jpg \
-              images/jcin-youth-editorial-board-certificate.jpg \
-              images/tnsm-exemplary-editor-2025.jpg \
+              images/isac-indoor-test-setup.png \
+              images/jcin-youth-editorial-board-certificate.png \
+              images/tnsm-exemplary-editor-2025.png \
               assets/fonts/source-sans-3/source-sans-3-latin-normal.woff2; do
               public_path="$path"
               if [ "$path" = index.html ]; then public_path=""; fi

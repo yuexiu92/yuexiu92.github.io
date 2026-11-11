@@ -24,23 +24,23 @@
 
 <div class="media-gallery">
   <figure class="media-card media-card--wide">
-    <a href="{{ '/images/isac-prototype-hardware.png' | relative_url }}" aria-label="查看通感原型硬件大图"><img src="{{ '/images/isac-prototype-hardware.png' | relative_url }}" alt="通感融合基带板、512天线毫米波相控阵、实验室设备及外场测试示意" width="1050" height="654" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/isac-prototype-hardware.png' | relative_url }}" aria-label="查看通感原型硬件大图"><img src="{{ '/images/isac-prototype-hardware.png' | relative_url }}" alt="通感融合基带板、512天线毫米波相控阵、实验室设备及外场测试示意" width="1589" height="990" loading="lazy" decoding="async"></a>
     <figcaption><strong>原型硬件与测试平台</strong>通用基带板、512天线毫米波相控阵，以及实验室与外场测试配置。</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" aria-label="查看网络协作通感软件界面大图"><img src="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" alt="网络协作通感原型软件，展示系统配置、目标感知和通信状态" width="1414" height="940" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" aria-label="查看网络协作通感软件界面大图"><img src="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" alt="网络协作通感原型软件，展示系统配置、目标感知和通信状态" width="1538" height="1022" loading="lazy" decoding="async"></a>
     <figcaption><strong>网络协作通感软件</strong>集成系统配置、目标感知及通信状态监测。</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-field-test-platform.png' | relative_url }}" aria-label="查看通感外场测试平台大图"><img src="{{ '/images/isac-field-test-platform.png' | relative_url }}" alt="通信感知一体化外场测试平台，展示感知基站、无人机实拍及感知和通信结果面板" width="1072" height="708" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/isac-field-test-platform.png' | relative_url }}" aria-label="查看通感外场测试平台大图"><img src="{{ '/images/isac-field-test-platform.png' | relative_url }}" alt="通信感知一体化外场测试平台，展示感知基站、无人机实拍及感知和通信结果面板" width="1543" height="1019" loading="lazy" decoding="async"></a>
     <figcaption><strong>外场系统验证</strong>测试平台展示感知与通信结果。</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" aria-label="查看室内通感实验场地大图"><img src="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" alt="室内实验场地俯视图，分布放置三脚架、无线设备和测量工作站" width="768" height="576" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" aria-label="查看室内通感实验场地大图"><img src="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" alt="室内实验场地俯视图，分布放置三脚架、无线设备和测量工作站" width="1448" height="1086" loading="lazy" decoding="async"></a>
     <figcaption><strong>室内实验场地</strong>分布式测试设备与测量区域全景。</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-indoor-test-setup.jpg' | relative_url }}" aria-label="查看室内通感测试设备大图"><img src="{{ '/images/isac-indoor-test-setup.jpg' | relative_url }}" alt="室内通感测试现场，三脚架和设备工作站按实验配置布置" width="770" height="578" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/isac-indoor-test-setup.png' | relative_url }}" aria-label="查看室内通感测试设备大图"><img src="{{ '/images/isac-indoor-test-setup.png' | relative_url }}" alt="室内通感测试现场，三脚架和设备工作站按实验配置布置" width="1447" height="1087" loading="lazy" decoding="async"></a>
     <figcaption><strong>室内测试配置</strong>原型实验中的设备工作站与现场布置。</figcaption>
   </figure>
 </div>
