@@ -3,9 +3,9 @@
     "short_name": "Yue Xiu",
     "icons": [
        {
-          "src": "/images/favicon.svg",
-          "sizes": "any",
-          "type": "image/svg+xml"
+          "src": "/images/favicon.png",
+          "sizes": "1254x1254",
+          "type": "image/png"
         }
     ],
     "theme_color": "#004098",

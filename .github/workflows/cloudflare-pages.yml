@@ -50,6 +50,7 @@ jobs:
         run: |
           for url in https://xiuyue.org/ https://www.xiuyue.org/; do
             for path in index.html assets/css/main.css assets/js/main.js \
+              images/favicon.png images/site.webmanifest \
               images/institutions/uestc-wordmark.png \
               images/isac-prototype-hardware.png \
               images/isac-cooperative-sensing-interface.png \

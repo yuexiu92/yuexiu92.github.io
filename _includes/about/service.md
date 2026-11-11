@@ -13,7 +13,7 @@
     <figcaption><strong>JCIN Youth Editorial Board</strong>Certificate of appointment · June 2026.</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" aria-label="View 2025 TNSM Exemplary Editor certificate"><img src="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" alt="IEEE Communications Society certificate recognizing Yue Xiu as a 2025 TNSM Exemplary Editor" width="1536" height="1024" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" aria-label="View 2025 TNSM Exemplary Editor certificate"><img src="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" alt="IEEE Communications Society certificate recognizing Yue Xiu as a 2025 TNSM Exemplary Editor" width="1162" height="1014" loading="lazy" decoding="async"></a>
     <figcaption><strong>2025 TNSM Exemplary Editor</strong>Recognition from the IEEE Communications Society.</figcaption>
   </figure>
 </div>
