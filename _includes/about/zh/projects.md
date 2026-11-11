@@ -12,8 +12,8 @@
     <tbody>
       <tr><th scope="row">非理想时频同步毫米波协作通感一体化高精度感知方法研究</th><td>国家自然科学基金青年科学基金项目</td><td class="project-table__period">2027.01–2029.12</td><td class="project-table__number">30.00</td><td class="project-table__number"><span class="project-rank">1</span></td></tr>
       <tr><th scope="row">面向6G场景化可定制的无线系统研究与验证</th><td>移动信息网络国家科技重大专项</td><td class="project-table__period">2026.12–2029.12</td><td class="project-table__number">110.00</td><td class="project-table__number"><span class="project-rank">1</span></td></tr>
-      <tr><th scope="row">面向6G的多源融合智能协同通感一体化关键技术研究与验证</th><td>移动信息网络国家科技重大专项</td><td class="project-table__period">2025.07–2028.06</td><td class="project-table__number">120.00</td><td class="project-table__number">2</td></tr>
-      <tr><th scope="row">毫米波******</th><td>xxx</td><td class="project-table__period">2025.03–2026.12</td><td class="project-table__number">320.50</td><td class="project-table__number">3</td></tr>
+      <tr><th scope="row">面向6G的多源融合智能协同通感一体化关键技术研究与验证</th><td>移动信息网络国家科技重大专项</td><td class="project-table__period">2025.07–2028.06</td><td class="project-table__number">120.00</td><td class="project-table__number"><span class="project-rank">2</span></td></tr>
+      <tr><th scope="row">毫米波******</th><td>xxx</td><td class="project-table__period">2025.03–2026.12</td><td class="project-table__number">320.50</td><td class="project-table__number"><span class="project-rank">3</span></td></tr>
     </tbody>
   </table>
 </div>
