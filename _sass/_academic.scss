@@ -476,13 +476,17 @@ html[lang="zh-CN"] [data-language="en"] {
   figcaption strong { display: block; margin-bottom: 0.2rem; color: var(--theme-heading); font-size: 0.85rem; }
 }
 
-.media-card--wide {
+.page__content .media-card--wide {
   grid-column: 1 / -1;
 
-  > a { max-height: 23rem; }
+  > a { display: block; aspect-ratio: auto; }
+  img { height: auto; }
 }
 
-.media-gallery--certificates .media-card > a { aspect-ratio: 4 / 3; padding: 0.65rem; }
+.page__content .media-gallery--certificates .media-card {
+  > a { position: relative; width: 100%; aspect-ratio: 3 / 2; flex: none; }
+  img { position: absolute; inset: 0; padding: 0.65rem; object-position: center; }
+}
 
 .site-footer {
   max-width: 1280px;

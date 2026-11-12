@@ -62,10 +62,18 @@ jobs:
               assets/fonts/source-sans-3/source-sans-3-latin-normal.woff2; do
               public_path="$path"
               if [ "$path" = index.html ]; then public_path=""; fi
-              curl --fail --silent --show-error --location \
-                --retry 3 --retry-delay 3 --max-time 30 \
-                --output /tmp/deployed-asset "${url}${public_path}"
-              cmp "_site/$path" /tmp/deployed-asset
+              for attempt in 1 2 3 4 5 6; do
+                if curl --fail --silent --show-error --location --max-time 30 \
+                  --output /tmp/deployed-asset "${url}${public_path}" \
+                  && cmp --silent "_site/$path" /tmp/deployed-asset; then
+                  break
+                fi
+                if [ "$attempt" -eq 6 ]; then
+                  printf 'Deployment verification failed at %s%s\n' "$url" "$public_path" >&2
+                  exit 1
+                fi
+                sleep 3
+              done
               printf 'Verified deployed asset at %s%s\n' "$url" "$public_path"
             done
           done
