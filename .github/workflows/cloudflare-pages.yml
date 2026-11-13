@@ -49,7 +49,7 @@ jobs:
       - name: Verify public domains
         run: |
           for url in https://xiuyue.org/ https://www.xiuyue.org/; do
-            for path in index.html assets/css/main.css assets/js/main.js \
+            for path in index.html assets/css/main.css assets/js/main.js assets/js/statistics.js \
               images/favicon.png images/site.webmanifest \
               images/institutions/uestc-wordmark.png \
               images/project/isac-prototype-hardware.png \

@@ -30,6 +30,14 @@
 
     <footer class="site-footer">
       <p>© {{ site.time | date: '%Y' }} <span data-zh="{{ site.author.name_zh }} · 电子科技大学">{{ site.author.name }} · University of Electronic Science and Technology of China</span></p>
+      <p class="site-statistics" data-site-statistics>
+        <span class="site-statistics__metric"><span data-zh="浏览量">Page views</span> <span id="busuanzi_value_site_pv">—</span></span>
+        <span class="site-statistics__metric"><span data-zh="访客数">Visitors</span> <span id="busuanzi_value_site_uv">—</span></span>
+        <span class="site-statistics__status" data-statistics-status role="status">
+          <span data-statistics-loading hidden><span data-zh="统计加载中">Loading statistics</span></span>
+          <span data-statistics-unavailable hidden><span data-zh="统计暂不可用">Statistics unavailable</span></span>
+        </span>
+      </p>
     </footer>
 
     {% include scripts.html %}

@@ -22,6 +22,8 @@
 
 Millimeter-wave cooperative integrated sensing and communication (ISAC), from baseband hardware and antenna arrays to indoor experiments, field testing, and prototype software. The prototype work covers robust beamforming, multi-target sensing, and multi-node cooperation under imperfect synchronization and interference.
 
+<details class="project-photos">
+<summary>Prototype photos (5)</summary>
 <div class="media-gallery">
   <figure class="media-card media-card--wide">
     <a href="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" aria-label="View ISAC prototype hardware image"><img src="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" alt="ISAC baseband board, 512-element millimeter-wave array, laboratory equipment, and field-test illustration" width="1589" height="990" loading="lazy" decoding="async"></a>
@@ -44,3 +46,4 @@ Millimeter-wave cooperative integrated sensing and communication (ISAC), from ba
     <figcaption><strong>Indoor test setup</strong>Equipment stations arranged for prototype experiments.</figcaption>
   </figure>
 </div>
+</details>

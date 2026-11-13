@@ -22,6 +22,8 @@
 
 围绕毫米波网络协作通感，开展从基带硬件、天线阵列到室内实验、外场测试及原型软件的系统开发与验证。原型研究涵盖非理想同步与干扰条件下的鲁棒波束赋形、多目标感知和多节点协作。
 
+<details class="project-photos">
+<summary>原型与测试照片（5张）</summary>
 <div class="media-gallery">
   <figure class="media-card media-card--wide">
     <a href="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" aria-label="查看通感原型硬件大图"><img src="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" alt="通感融合基带板、512天线毫米波相控阵、实验室设备及外场测试示意" width="1589" height="990" loading="lazy" decoding="async"></a>
@@ -44,3 +46,4 @@
     <figcaption><strong>室内测试配置</strong>原型实验中的设备工作站与现场布置。</figcaption>
   </figure>
 </div>
+</details>

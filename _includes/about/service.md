@@ -7,6 +7,8 @@
 
 - **2025 Exemplary Editor**, IEEE Transactions on Network and Service Management (TNSM), IEEE Communications Society.
 
+<details class="certificate-photos">
+<summary>Certificates (2)</summary>
 <div class="media-gallery media-gallery--certificates">
   <figure class="media-card">
     <a href="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" aria-label="View JCIN youth editorial board appointment certificate"><img src="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" alt="Certificate appointing Yue Xiu to the JCIN youth editorial board in June 2026" width="1536" height="1024" loading="lazy" decoding="async"></a>
@@ -17,6 +19,7 @@
     <figcaption><strong>2025 TNSM Exemplary Editor</strong>Recognition from the IEEE Communications Society.</figcaption>
   </figure>
 </div>
+</details>
 
 ## Journal Reviewing
 

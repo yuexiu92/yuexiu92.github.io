@@ -7,6 +7,8 @@
 
 - **2025年优秀编辑（Exemplary Editor）**，IEEE Transactions on Network and Service Management（TNSM），IEEE通信学会。
 
+<details class="certificate-photos">
+<summary>聘书与荣誉证书（2张）</summary>
 <div class="media-gallery media-gallery--certificates">
   <figure class="media-card">
     <a href="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" aria-label="查看JCIN青年编委聘书大图"><img src="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" alt="修越于2026年6月获聘JCIN青年编委的聘书" width="1536" height="1024" loading="lazy" decoding="async"></a>
@@ -17,6 +19,7 @@
     <figcaption><strong>2025年TNSM优秀编辑</strong>IEEE通信学会颁发的编辑荣誉。</figcaption>
   </figure>
 </div>
+</details>
 
 ## 期刊审稿
 
