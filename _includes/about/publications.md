@@ -2,7 +2,7 @@
 
 <!-- Google Scholar citation snapshot, checked 2026-11-11. Show badges only for counts greater than 30. Update the count in both the badge alt text and its Shields.io URL. -->
 
-<details class="publication-year" open markdown="1">
+<details class="publication-year" markdown="1">
 <summary id="2026"><span>2026</span> <span class="publication-count" data-zh="13 篇">13 papers</span></summary>
 
 1. `TWC` [Robust optimization for movable antenna-aided cell-free ISAC with time synchronization errors](https://doi.org/10.1109/TWC.2026.3652128), **Yue Xiu**, Yang Zhao, Ran Yang, et al., *IEEE Transactions on Wireless Communications*, vol. 25, pp. 10082–10097, 2026. [![Citations: 51](https://img.shields.io/badge/Citations-51-ffc107?style=flat)](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7809847396481183930)
