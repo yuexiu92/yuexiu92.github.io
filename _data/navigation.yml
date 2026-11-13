@@ -5,6 +5,11 @@ main:
     title_zh: "个人简介"
     url: "/#about-me"
 
+  - title: "News"
+    icon: "globe"
+    title_zh: "新闻动态"
+    url: "/#news"
+
   - title: "Education"
     icon: "graduation"
     title_zh: "教育经历"

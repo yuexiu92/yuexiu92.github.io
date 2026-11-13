@@ -448,6 +448,42 @@ html[lang="zh-CN"] [data-language="en"] {
   margin: 1.25rem 0 0;
 }
 
+.page__content .news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li { margin: 0 0 0.85rem; }
+  > li:last-child { margin-bottom: 0; }
+
+  time {
+    margin-right: 0.45rem;
+    color: var(--theme-heading);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+}
+
+.news-list__text {
+  display: inline;
+
+  > p { display: inline; margin: 0; }
+}
+
+.news-photos {
+  margin-top: 0.3rem;
+
+  > summary { width: fit-content; padding: 0.2rem 0; color: var(--theme-link); cursor: pointer; font-size: 0.9rem; }
+  > summary:focus-visible { outline: 2px solid var(--theme-link); outline-offset: 3px; }
+}
+
+.news-photos .media-gallery--conference {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
 .page__content .media-card {
   display: flex;
   flex-direction: column;
@@ -525,6 +561,7 @@ html[lang="zh-CN"] [data-language="en"] {
   .project-summary dd { margin: 0; font-size: 1.1rem; text-align: right; }
   .page__content .project-table-hint { display: block; margin: 0 0 0.5rem; color: var(--theme-text-soft); font-size: 0.75rem; }
   .media-gallery { grid-template-columns: minmax(0, 1fr); }
+  .news-photos .media-gallery--conference { grid-template-columns: minmax(0, 1fr); }
   .masthead__inner-wrap { padding: 0.6rem 0.8rem; }
   .masthead__university-logo { width: 11rem; }
   .masthead__lab { padding-left: 0; border-left: 0; }

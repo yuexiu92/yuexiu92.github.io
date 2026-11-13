@@ -9,11 +9,11 @@
 
 <div class="media-gallery media-gallery--certificates">
   <figure class="media-card">
-    <a href="{{ '/images/jcin-youth-editorial-board-certificate.png' | relative_url }}" aria-label="查看JCIN青年编委聘书大图"><img src="{{ '/images/jcin-youth-editorial-board-certificate.png' | relative_url }}" alt="修越于2026年6月获聘JCIN青年编委的聘书" width="1536" height="1024" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" aria-label="查看JCIN青年编委聘书大图"><img src="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" alt="修越于2026年6月获聘JCIN青年编委的聘书" width="1536" height="1024" loading="lazy" decoding="async"></a>
     <figcaption><strong>JCIN青年编委</strong>2026年6月受聘。</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" aria-label="查看2025年TNSM优秀编辑证书大图"><img src="{{ '/images/tnsm-exemplary-editor-2025.png' | relative_url }}" alt="IEEE通信学会授予修越2025年TNSM优秀编辑的证书" width="1162" height="1014" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/rewards/tnsm-exemplary-editor-2025.png' | relative_url }}" aria-label="查看2025年TNSM优秀编辑证书大图"><img src="{{ '/images/rewards/tnsm-exemplary-editor-2025.png' | relative_url }}" alt="IEEE通信学会授予修越2025年TNSM优秀编辑的证书" width="1162" height="1014" loading="lazy" decoding="async"></a>
     <figcaption><strong>2025年TNSM优秀编辑</strong>IEEE通信学会颁发的编辑荣誉。</figcaption>
   </figure>
 </div>

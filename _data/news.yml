@@ -1,0 +1,75 @@
+# Newest first. Use acceptance dates for acceptance news, not issue dates.
+# Keep author names as recorded by Scholar; do not infer degree or supervision.
+- date: "2026-11"
+  content_zh: >-
+    参加第十八届无线通信与信号处理国际会议（WCSP 2026），会议于11月12–14日在深圳举行。
+  content_en: >-
+    Participated in the 18th International Conference on Wireless Communications and Signal Processing (WCSP 2026), held in Shenzhen, China, November 12–14.
+  photos:
+    - src: /images/wcsp/WCSP1.jpg
+      width: 4080
+      height: 3072
+      alt_zh: 深圳WCSP 2026会议会场
+      alt_en: WCSP 2026 conference venue in Shenzhen
+      caption_zh: WCSP 2026 会场
+      caption_en: WCSP 2026 conference venue
+    - src: /images/wcsp/WCSP2.jpg
+      width: 3328
+      height: 2212
+      alt_zh: WCSP 2026学术报告现场，投影片主题为Towards AI-Native 6G
+      alt_en: Conference talk with a slide titled Towards AI-Native 6G at WCSP 2026
+      caption_zh: “Towards AI-Native 6G”学术报告
+      caption_en: “Towards AI-Native 6G” conference talk
+    - src: /images/wcsp/WCSP3.jpg
+      width: 1920
+      height: 1280
+      alt_zh: WCSP 2026参会签到现场
+      alt_en: WCSP 2026 registration area
+      caption_zh: WCSP 2026 参会签到
+      caption_en: Registration at WCSP 2026
+
+# Conference-news month follows the official notification schedule, not the October publication date.
+# Accepted list: https://2026.emnlp.org/program/find_papers/
+# Notification August 20: https://2026.emnlp.org/calls/main_conference_papers/
+- date: "2026-08"
+  content_zh: >-
+    Yang Zhao 等人的论文“ShardMemo: Scope-Before-Routing for Agentic Memory Retrieval”被 **Findings of EMNLP 2026** 接收。[论文链接](https://aclanthology.org/2026.findings-emnlp.1806/)
+  content_en: >-
+    “ShardMemo: Scope-Before-Routing for Agentic Memory Retrieval,” by Yang Zhao and coauthors, was accepted to **Findings of EMNLP 2026**. [Paper](https://aclanthology.org/2026.findings-emnlp.1806/)
+
+- date: "2026-06"
+  content_zh: >-
+    受聘担任 *Journal of Communications and Information Networks*（JCIN）青年编委。[聘书](/images/rewards/jcin-youth-editorial-board-certificate.png)
+  content_en: >-
+    Appointed to the youth editorial board of *Journal of Communications and Information Networks* (JCIN). [Certificate](/images/rewards/jcin-youth-editorial-board-certificate.png)
+
+# Acceptance month announced by the first author: https://www.jiamingpei.com/index.html
+- date: "2026-03"
+  content_zh: >-
+    Jiaming Pei 第一作者论文“A Multi-Stage Neuro-Symbolic Framework for Trustworthy Agentic Intelligence in ICE Systems”被期刊 **IEEE Transactions on Consumer Electronics** 接收。[论文链接](https://doi.org/10.1109/TCE.2026.3676046)
+  content_en: >-
+    “A Multi-Stage Neuro-Symbolic Framework for Trustworthy Agentic Intelligence in ICE Systems,” first-authored by Jiaming Pei, was accepted by **IEEE Transactions on Consumer Electronics**. [Paper](https://doi.org/10.1109/TCE.2026.3676046)
+
+# Conference-news month follows the official decision schedule (January 25).
+# https://iclr.cc/Conferences/2026/Dates
+# Acceptance verified by the official proceedings record linked below.
+- date: "2026-01"
+  content_zh: >-
+    Yang Zhao、Chengxiao Dai 等人的论文“CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering”被 **ICLR 2026** 接收。[论文链接](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8598c5d05e1d045919962e430b0bdf0d-Abstract-Conference.html)
+  content_en: >-
+    “CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering,” by Yang Zhao, Chengxiao Dai and coauthors, was accepted to **ICLR 2026**. [Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8598c5d05e1d045919962e430b0bdf0d-Abstract-Conference.html)
+
+# Accepted January 8, 2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC11768676/
+# The published title spells Reinforcemnet this way; retain the official title.
+- date: "2025-01"
+  content_zh: >-
+    Chenfei Xie 第一作者论文“Deep Reinforcemnet Learning for Robust Beamforming in Integrated Sensing, Communication and Power Transmission Systems”被期刊 **Sensors** 接收。[论文链接](https://doi.org/10.3390/s25020388)
+  content_en: >-
+    “Deep Reinforcemnet Learning for Robust Beamforming in Integrated Sensing, Communication and Power Transmission Systems,” first-authored by Chenfei Xie, was accepted by **Sensors**. [Paper](https://doi.org/10.3390/s25020388)
+
+# Only the award year is established; do not invent an award month.
+- date: "2025"
+  content_zh: >-
+    获 IEEE 通信学会授予的 **IEEE Transactions on Network and Service Management（TNSM）2025年优秀编辑**荣誉。[证书](/images/rewards/tnsm-exemplary-editor-2025.png)
+  content_en: >-
+    Recognized by the IEEE Communications Society as a **2025 Exemplary Editor of IEEE Transactions on Network and Service Management (TNSM)**. [Certificate](/images/rewards/tnsm-exemplary-editor-2025.png)

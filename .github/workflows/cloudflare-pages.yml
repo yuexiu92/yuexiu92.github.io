@@ -52,13 +52,16 @@ jobs:
             for path in index.html assets/css/main.css assets/js/main.js \
               images/favicon.png images/site.webmanifest \
               images/institutions/uestc-wordmark.png \
-              images/isac-prototype-hardware.png \
-              images/isac-cooperative-sensing-interface.png \
-              images/isac-field-test-platform.png \
-              images/isac-indoor-test-overview.png \
-              images/isac-indoor-test-setup.png \
-              images/jcin-youth-editorial-board-certificate.png \
-              images/tnsm-exemplary-editor-2025.png \
+              images/project/isac-prototype-hardware.png \
+              images/project/isac-cooperative-sensing-interface.png \
+              images/project/isac-field-test-platform.png \
+              images/project/isac-indoor-test-overview.png \
+              images/project/isac-indoor-test-setup.png \
+              images/rewards/jcin-youth-editorial-board-certificate.png \
+              images/rewards/tnsm-exemplary-editor-2025.png \
+              images/wcsp/WCSP1.jpg \
+              images/wcsp/WCSP2.jpg \
+              images/wcsp/WCSP3.jpg \
               assets/fonts/source-sans-3/source-sans-3-latin-normal.woff2; do
               public_path="$path"
               if [ "$path" = index.html ]; then public_path=""; fi

@@ -1,0 +1,30 @@
+{% assign content_key = 'content_' | append: include.language %}
+{% assign alt_key = 'alt_' | append: include.language %}
+{% assign caption_key = 'caption_' | append: include.language %}
+{% if include.language == 'zh' %}
+<p class="news-intro">主要代表作请见“<a href="#publications">论文成果</a>”。</p>
+<ol class="news-list" aria-label="新闻动态，按时间倒序排列">
+{% else %}
+<p class="news-intro">See <a href="#publications">Publications</a> for selected papers.</p>
+<ol class="news-list" aria-label="News and updates, newest first">
+{% endif %}
+{% for item in site.data.news %}
+  <li>
+    <time datetime="{{ item.date | escape }}">[{{ item.date | escape }}]</time>
+    <div class="news-list__text">{{ item[content_key] | markdownify }}</div>
+    {% if item.photos %}
+    <details class="news-photos">
+      <summary>{% if include.language == 'zh' %}参会照片（{{ item.photos.size }}张）{% else %}Conference photos ({{ item.photos.size }}){% endif %}</summary>
+      <div class="media-gallery media-gallery--conference">
+        {% for photo in item.photos %}
+        <figure class="media-card">
+          <a href="{{ photo.src | relative_url }}" aria-label="{% if include.language == 'zh' %}查看原图：{% else %}View full-size photo: {% endif %}{{ photo[alt_key] | escape }}"><img src="{{ photo.src | relative_url }}" alt="{{ photo[alt_key] | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async"></a>
+          <figcaption>{{ photo[caption_key] | escape }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </details>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>

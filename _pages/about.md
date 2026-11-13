@@ -10,6 +10,8 @@ redirect_from:
 
 {% include bilingual-section.html file="intro" id="about-me" icon="person" title="About Me" title_zh="个人简介" %}
 
+{% include bilingual-section.html file="news" id="news" icon="globe" title="News & Updates" title_zh="新闻动态" %}
+
 <div class="section-card career-grid">
 {% include bilingual-section.html file="education" id="education" icon="graduation" title="Education" title_zh="教育经历" class="career-section" %}
 {% include bilingual-section.html file="experience" id="experience" icon="briefcase" title="Experience" title_zh="工作经历" class="career-section" %}

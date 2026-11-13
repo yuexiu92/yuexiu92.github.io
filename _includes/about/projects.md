@@ -24,23 +24,23 @@ Millimeter-wave cooperative integrated sensing and communication (ISAC), from ba
 
 <div class="media-gallery">
   <figure class="media-card media-card--wide">
-    <a href="{{ '/images/isac-prototype-hardware.png' | relative_url }}" aria-label="View ISAC prototype hardware image"><img src="{{ '/images/isac-prototype-hardware.png' | relative_url }}" alt="ISAC baseband board, 512-element millimeter-wave array, laboratory equipment, and field-test illustration" width="1589" height="990" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" aria-label="View ISAC prototype hardware image"><img src="{{ '/images/project/isac-prototype-hardware.png' | relative_url }}" alt="ISAC baseband board, 512-element millimeter-wave array, laboratory equipment, and field-test illustration" width="1589" height="990" loading="lazy" decoding="async"></a>
     <figcaption><strong>Hardware and test platform</strong>Baseband board, a 512-element millimeter-wave array, and laboratory and field-test configurations.</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" aria-label="View cooperative ISAC software interface"><img src="{{ '/images/isac-cooperative-sensing-interface.png' | relative_url }}" alt="Cooperative ISAC prototype interface showing system settings, sensing targets, and communication status" width="1538" height="1022" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/project/isac-cooperative-sensing-interface.png' | relative_url }}" aria-label="View cooperative ISAC software interface"><img src="{{ '/images/project/isac-cooperative-sensing-interface.png' | relative_url }}" alt="Cooperative ISAC prototype interface showing system settings, sensing targets, and communication status" width="1538" height="1022" loading="lazy" decoding="async"></a>
     <figcaption><strong>Cooperative ISAC software</strong>System configuration, target sensing, and communication monitoring.</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-field-test-platform.png' | relative_url }}" aria-label="View outdoor ISAC test platform"><img src="{{ '/images/isac-field-test-platform.png' | relative_url }}" alt="Outdoor ISAC test platform showing a sensing base station, drone footage, and sensing and communication panels" width="1543" height="1019" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/project/isac-field-test-platform.png' | relative_url }}" aria-label="View outdoor ISAC test platform"><img src="{{ '/images/project/isac-field-test-platform.png' | relative_url }}" alt="Outdoor ISAC test platform showing a sensing base station, drone footage, and sensing and communication panels" width="1543" height="1019" loading="lazy" decoding="async"></a>
     <figcaption><strong>Outdoor system validation</strong>Field-test platform displaying sensing and communication results.</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" aria-label="View indoor ISAC experiment overview"><img src="{{ '/images/isac-indoor-test-overview.png' | relative_url }}" alt="Overhead view of an indoor experiment with distributed tripods, radio equipment, and measurement stations" width="1448" height="1086" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/project/isac-indoor-test-overview.png' | relative_url }}" aria-label="View indoor ISAC experiment overview"><img src="{{ '/images/project/isac-indoor-test-overview.png' | relative_url }}" alt="Overhead view of an indoor experiment with distributed tripods, radio equipment, and measurement stations" width="1448" height="1086" loading="lazy" decoding="async"></a>
     <figcaption><strong>Indoor experimental site</strong>Overview of the distributed test equipment and measurement area.</figcaption>
   </figure>
   <figure class="media-card">
-    <a href="{{ '/images/isac-indoor-test-setup.png' | relative_url }}" aria-label="View indoor ISAC test setup"><img src="{{ '/images/isac-indoor-test-setup.png' | relative_url }}" alt="Ground-level view of tripods and equipment stations in the indoor ISAC test area" width="1447" height="1087" loading="lazy" decoding="async"></a>
+    <a href="{{ '/images/project/isac-indoor-test-setup.png' | relative_url }}" aria-label="View indoor ISAC test setup"><img src="{{ '/images/project/isac-indoor-test-setup.png' | relative_url }}" alt="Ground-level view of tripods and equipment stations in the indoor ISAC test area" width="1447" height="1087" loading="lazy" decoding="async"></a>
     <figcaption><strong>Indoor test setup</strong>Equipment stations arranged for prototype experiments.</figcaption>
   </figure>
 </div>
