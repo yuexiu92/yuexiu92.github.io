@@ -2,6 +2,12 @@
 # Keep author names as recorded by Scholar; do not infer degree or supervision.
 - date: "2026-11"
   content_zh: >-
+    获 IEEE 通信学会授予的 **IEEE Transactions on Green Communications and Networking（TGCN）2026年优秀审稿人**荣誉。[证书](/images/rewards/tgcn-exemplary-reviewer-2026.png)
+  content_en: >-
+    Named a **2026 Exemplary Reviewer** for *IEEE Transactions on Green Communications and Networking* (TGCN) by the IEEE Communications Society. [Certificate](/images/rewards/tgcn-exemplary-reviewer-2026.png)
+
+- date: "2026-11"
+  content_zh: >-
     参加第十八届无线通信与信号处理国际会议（WCSP 2026），会议于11月12–14日在深圳举行。
   content_en: >-
     Participated in the 18th International Conference on Wireless Communications and Signal Processing (WCSP 2026), held in Shenzhen, China, November 12–14.
@@ -58,12 +64,6 @@
     Yang Zhao、Chengxiao Dai 等人的论文“CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering”被 **ICLR 2026** 接收。[论文链接](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8598c5d05e1d045919962e430b0bdf0d-Abstract-Conference.html)
   content_en: >-
     “CLAUSE: Agentic Neuro-Symbolic Knowledge Graph Reasoning via Dynamic Learnable Context Engineering,” by Yang Zhao, Chengxiao Dai and coauthors, was accepted to **ICLR 2026**. [Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/8598c5d05e1d045919962e430b0bdf0d-Abstract-Conference.html)
-
-- date: "2026"
-  content_zh: >-
-    获 IEEE 通信学会授予的 **IEEE Transactions on Green Communications and Networking（TGCN）2026年优秀审稿人**荣誉。[证书](/images/rewards/tgcn-exemplary-reviewer-2026.png)
-  content_en: >-
-    Named a **2026 Exemplary Reviewer** for *IEEE Transactions on Green Communications and Networking* (TGCN) by the IEEE Communications Society. [Certificate](/images/rewards/tgcn-exemplary-reviewer-2026.png)
 
 # Accepted January 8, 2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC11768676/
 # The published title spells Reinforcemnet this way; retain the official title.

@@ -7,8 +7,10 @@
   const counters = ['site_pv', 'site_uv'].map((name) => document.getElementById(`busuanzi_value_${name}`));
 
   if (!['xiuyue.org', 'www.xiuyue.org'].includes(window.location.hostname)) {
-    loading.hidden = true;
-    unavailable.hidden = true;
+    statistics.querySelectorAll('.site-statistics__metric').forEach((metric) => {
+      metric.hidden = true;
+    });
+    statistics.querySelector('[data-statistics-live-link]').hidden = false;
     return;
   }
   loading.hidden = false;
