@@ -6,10 +6,11 @@
 ## Editorial and Reviewing Honors
 
 - **2026 Exemplary Reviewer**, IEEE Transactions on Green Communications and Networking (TGCN), IEEE Communications Society.
+- **2025 Exemplary Reviewer**, IEEE Communications Letters (COMML), IEEE Communications Society.
 - **2025 Exemplary Editor**, IEEE Transactions on Network and Service Management (TNSM), IEEE Communications Society.
 
 <details class="certificate-photos">
-<summary>Certificates (3)</summary>
+<summary>Certificates (4)</summary>
 <div class="media-gallery media-gallery--certificates">
   <figure class="media-card">
     <a href="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" aria-label="View JCIN youth editorial board appointment certificate"><img src="{{ '/images/rewards/jcin-youth-editorial-board-certificate.png' | relative_url }}" alt="Certificate appointing Yue Xiu to the JCIN youth editorial board in June 2026" width="1536" height="1024" loading="lazy" decoding="async"></a>
@@ -18,6 +19,10 @@
   <figure class="media-card">
     <a href="{{ '/images/rewards/tgcn-exemplary-reviewer-2026.png' | relative_url }}" aria-label="View 2026 TGCN Exemplary Reviewer certificate"><img src="{{ '/images/rewards/tgcn-exemplary-reviewer-2026.png' | relative_url }}" alt="IEEE Communications Society certificate recognizing Yue Xiu as a 2026 TGCN Exemplary Reviewer" width="1584" height="1224" loading="lazy" decoding="async"></a>
     <figcaption><strong>2026 TGCN Exemplary Reviewer</strong>IEEE Communications Society.</figcaption>
+  </figure>
+  <figure class="media-card">
+    <a href="{{ '/images/rewards/comml-exemplary-reviewer-2025.png' | relative_url }}" aria-label="View 2025 COMML Exemplary Reviewer certificate"><img src="{{ '/images/rewards/comml-exemplary-reviewer-2025.png' | relative_url }}" alt="IEEE Communications Society certificate recognizing Yue Xiu as a 2025 COMML Exemplary Reviewer" width="1584" height="1224" loading="lazy" decoding="async"></a>
+    <figcaption><strong>2025 COMML Exemplary Reviewer</strong>IEEE Communications Society.</figcaption>
   </figure>
   <figure class="media-card">
     <a href="{{ '/images/rewards/tnsm-exemplary-editor-2025.png' | relative_url }}" aria-label="View 2025 TNSM Exemplary Editor certificate"><img src="{{ '/images/rewards/tnsm-exemplary-editor-2025.png' | relative_url }}" alt="IEEE Communications Society certificate recognizing Yue Xiu as a 2025 TNSM Exemplary Editor" width="1162" height="1014" loading="lazy" decoding="async"></a>

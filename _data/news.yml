@@ -76,6 +76,12 @@
 # Only the award year is established; do not invent an award month.
 - date: "2025"
   content_zh: >-
+    获 IEEE 通信学会授予的 **IEEE Communications Letters（COMML）2025年优秀审稿人**荣誉。[证书](/images/rewards/comml-exemplary-reviewer-2025.png)
+  content_en: >-
+    Named a **2025 Exemplary Reviewer** for *IEEE Communications Letters* (COMML) by the IEEE Communications Society. [Certificate](/images/rewards/comml-exemplary-reviewer-2025.png)
+
+- date: "2025"
+  content_zh: >-
     获 IEEE 通信学会授予的 **IEEE Transactions on Network and Service Management（TNSM）2025年优秀编辑**荣誉。[证书](/images/rewards/tnsm-exemplary-editor-2025.png)
   content_en: >-
     Recognized by the IEEE Communications Society as a **2025 Exemplary Editor of IEEE Transactions on Network and Service Management (TNSM)**. [Certificate](/images/rewards/tnsm-exemplary-editor-2025.png)
